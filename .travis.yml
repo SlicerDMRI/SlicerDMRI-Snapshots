@@ -1,0 +1,9 @@
+language: python
+sudo: false
+
+python:
+    - "3.5"
+
+script:
+    - curl -L http://slicer.kitware.com/midas3/rest/item/download/278809/Slicer-4.7.0-2017-03-12-macosx-amd64.dmg -o Slicer-4.7.0-2017-03-12-macosx-amd64.dmg 
+    #- run.py
